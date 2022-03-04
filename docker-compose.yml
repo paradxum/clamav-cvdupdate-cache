@@ -1,0 +1,7 @@
+version: '3'
+
+services:
+  clamav-freshclam-cache:
+    build: .
+    ports:
+      - 8085:80
